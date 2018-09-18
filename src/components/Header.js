@@ -17,7 +17,7 @@ const styles = {
   }
 };
 
-function SimpleAppBar(props) {
+function Header(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
@@ -32,8 +32,8 @@ function SimpleAppBar(props) {
   );
 }
 
-SimpleAppBar.propTypes = {
+Header.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SimpleAppBar);
+export default withStyles(styles)(Header);
