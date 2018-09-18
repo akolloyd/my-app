@@ -17,7 +17,7 @@ const styles = {
   }
 };
 
-function SimpleAppBar(props) {
+function Footer(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
@@ -32,8 +32,8 @@ function SimpleAppBar(props) {
   );
 }
 
-SimpleAppBar.propTypes = {
+Footer.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(SimpleAppBar);
+export default withStyles(styles)(Footer);

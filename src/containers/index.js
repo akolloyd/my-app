@@ -12,6 +12,7 @@ class Containers extends Component {
           <Route exact path='/' render={() => <Home />} />
           <Route exact path='/login' render={() => <Login />} />
           <Route path='*' render={() => <NotFound />} />
+          Test
         </Switch>
       </BrowserRouter>
     );
